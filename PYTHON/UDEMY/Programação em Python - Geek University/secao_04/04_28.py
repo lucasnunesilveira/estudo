@@ -1,0 +1,5 @@
+n1 = float(input("Digite o primeiro valor "))
+n2 = float(input("Digite o segundov valor "))
+n3 = float(input("Digite o terceiro valor "))
+soamtorio = (n1*n1)+ ( n2*n2)+(n3*n3)
+print(f'o valor do somatorio é {soamtorio}')
