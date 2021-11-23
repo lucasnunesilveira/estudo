@@ -1,0 +1,10 @@
+quando devo usar metodo de instacia e metodo de class ?
+usa-se metodo de instacia so para  uma instancia especifica
+e o metodo de classe se esse metodo pertence a class toda.
+
+existe 3 tipos
+metodo de classe o que refere-se a classe toda
+metodo de instancia que referese exclusivamente a uma instacia da classe
+metodo estatico é um metodo que não precisa da classe( pode vim ate de outra classe) , e ela é independete  
+
+Getters e Setters
