@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70ec8790-c9b1-4433-a25a-e3c7873fdbd8" name="Changes" comment="" />
+    <list default="true" id="70ec8790-c9b1-4433-a25a-e3c7873fdbd8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.encapsulamento">
+  <component name="RunManager" selected="Python.Produto_main">
     <configuration name="Produto_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="classe" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -141,8 +143,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.encapsulamento" />
         <item itemvalue="Python.Produto_main" />
+        <item itemvalue="Python.encapsulamento" />
         <item itemvalue="Python.main_Produto" />
         <item itemvalue="Python.Produtos" />
         <item itemvalue="Python.aulas_pessoas" />
@@ -165,7 +167,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
