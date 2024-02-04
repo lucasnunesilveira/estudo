@@ -1,0 +1,48 @@
+[2023-07-17 22:08:25,289] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_crypto_dag.ETH scheduled__2023-05-31T00:00:00+00:00 [queued]>
+[2023-07-17 22:08:25,302] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_crypto_dag.ETH scheduled__2023-05-31T00:00:00+00:00 [queued]>
+[2023-07-17 22:08:25,303] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-17 22:08:25,303] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-07-17 22:08:25,303] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-17 22:08:25,325] {taskinstance.py:1377} INFO - Executing <Task(_PythonDecoratedOperator): ETH> on 2023-05-31 00:00:00+00:00
+[2023-07-17 22:08:25,333] {standard_task_runner.py:52} INFO - Started process 75087 to run task
+[2023-07-17 22:08:25,336] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'get_crypto_dag', 'ETH', 'scheduled__2023-05-31T00:00:00+00:00', '--job-id', '948', '--raw', '--subdir', 'DAGS_FOLDER/get_crypto.py', '--cfg-path', '/tmp/tmp4tjcnten', '--error-file', '/tmp/tmpodskubtd']
+[2023-07-17 22:08:25,337] {standard_task_runner.py:80} INFO - Job 948: Subtask ETH
+[2023-07-17 22:08:25,413] {task_command.py:370} INFO - Running <TaskInstance: get_crypto_dag.ETH scheduled__2023-05-31T00:00:00+00:00 [running]> on host lucas-Estudos
+[2023-07-17 22:08:25,560] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=get_crypto_dag
+AIRFLOW_CTX_TASK_ID=ETH
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-31T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-05-31T00:00:00+00:00
+[2023-07-17 22:08:29,332] {base.py:162} ERROR - ETH: No timezone found, symbol may be delisted
+[2023-07-17 22:08:29,341] {python.py:173} INFO - Done. Returned value was: None
+[2023-07-17 22:08:29,401] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=get_crypto_dag, task_id=ETH, execution_date=20230531T000000, start_date=20230718T010825, end_date=20230718T010829
+[2023-07-17 22:08:29,447] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-07-17 22:08:29,635] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-07-18 10:43:32,013] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_crypto_dag.ETH scheduled__2023-05-31T00:00:00+00:00 [queued]>
+[2023-07-18 10:43:32,033] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_crypto_dag.ETH scheduled__2023-05-31T00:00:00+00:00 [queued]>
+[2023-07-18 10:43:32,034] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-18 10:43:32,034] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-07-18 10:43:32,034] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-18 10:43:32,059] {taskinstance.py:1377} INFO - Executing <Task(_PythonDecoratedOperator): ETH> on 2023-05-31 00:00:00+00:00
+[2023-07-18 10:43:32,067] {standard_task_runner.py:52} INFO - Started process 16383 to run task
+[2023-07-18 10:43:32,073] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'get_crypto_dag', 'ETH', 'scheduled__2023-05-31T00:00:00+00:00', '--job-id', '1358', '--raw', '--subdir', 'DAGS_FOLDER/get_crypto.py', '--cfg-path', '/tmp/tmp63i1uk0y', '--error-file', '/tmp/tmp4mf4tnwy']
+[2023-07-18 10:43:32,075] {standard_task_runner.py:80} INFO - Job 1358: Subtask ETH
+[2023-07-18 10:43:32,246] {task_command.py:370} INFO - Running <TaskInstance: get_crypto_dag.ETH scheduled__2023-05-31T00:00:00+00:00 [running]> on host lucas-Estudos
+[2023-07-18 10:43:32,454] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=get_crypto_dag
+AIRFLOW_CTX_TASK_ID=ETH
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-31T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-05-31T00:00:00+00:00
+[2023-07-18 10:43:33,084] {base.py:162} ERROR - ETH: No timezone found, symbol may be delisted
+[2023-07-18 10:43:33,088] {python.py:173} INFO - Done. Returned value was: None
+[2023-07-18 10:43:33,108] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=get_crypto_dag, task_id=ETH, execution_date=20230531T000000, start_date=20230718T134332, end_date=20230718T134333
+[2023-07-18 10:43:33,168] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-07-18 10:43:33,251] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

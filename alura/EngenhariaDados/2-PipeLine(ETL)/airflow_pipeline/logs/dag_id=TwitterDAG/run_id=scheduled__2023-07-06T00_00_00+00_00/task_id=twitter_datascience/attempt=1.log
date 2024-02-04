@@ -1,0 +1,49 @@
+[2023-07-12 12:36:32,480] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: TwitterDAG.twitter_datascience scheduled__2023-07-06T00:00:00+00:00 [queued]>
+[2023-07-12 12:36:32,488] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: TwitterDAG.twitter_datascience scheduled__2023-07-06T00:00:00+00:00 [queued]>
+[2023-07-12 12:36:32,488] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-12 12:36:32,488] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-07-12 12:36:32,488] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-12 12:36:32,504] {taskinstance.py:1377} INFO - Executing <Task(TwitterOperator): twitter_datascience> on 2023-07-06 00:00:00+00:00
+[2023-07-12 12:36:32,506] {standard_task_runner.py:52} INFO - Started process 15660 to run task
+[2023-07-12 12:36:32,511] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'TwitterDAG', 'twitter_datascience', 'scheduled__2023-07-06T00:00:00+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/twitter_dag.py', '--cfg-path', '/tmp/tmpv435iy3t', '--error-file', '/tmp/tmpzm8jnqvg']
+[2023-07-12 12:36:32,512] {standard_task_runner.py:80} INFO - Job 5: Subtask twitter_datascience
+[2023-07-12 12:36:32,550] {task_command.py:370} INFO - Running <TaskInstance: TwitterDAG.twitter_datascience scheduled__2023-07-06T00:00:00+00:00 [running]> on host lucas-Estudos
+[2023-07-12 12:36:32,593] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=TwitterDAG
+AIRFLOW_CTX_TASK_ID=twitter_datascience
+AIRFLOW_CTX_EXECUTION_DATE=2023-07-06T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-07-06T00:00:00+00:00
+[2023-07-12 12:36:32,598] {base.py:68} INFO - Using connection ID 'twitter_default' for task execution.
+[2023-07-12 12:36:32,599] {twitter_hook.py:34} INFO - URL: https://labdados.com/2/tweets/search/recent?query=datascience&tweet.fields=author_id,conversation_id,created_at,id,in_reply_to_user_id,public_metrics,lang,text&expansions=author_id&user.fields=id,name,username,created_at&start_time=2023-07-06T00:00:00.00Z&end_time=2023-07-07T00:00:00.00Z
+[2023-07-12 12:36:33,235] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=TwitterDAG, task_id=twitter_datascience, execution_date=20230706T000000, start_date=20230712T153632, end_date=20230712T153633
+[2023-07-12 12:36:33,284] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-07-12 12:36:33,305] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-07-12 13:50:33,420] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: TwitterDAG.twitter_datascience scheduled__2023-07-06T00:00:00+00:00 [queued]>
+[2023-07-12 13:50:33,424] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: TwitterDAG.twitter_datascience scheduled__2023-07-06T00:00:00+00:00 [queued]>
+[2023-07-12 13:50:33,424] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-12 13:50:33,424] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-07-12 13:50:33,424] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-12 13:50:33,431] {taskinstance.py:1377} INFO - Executing <Task(TwitterOperator): twitter_datascience> on 2023-07-06 00:00:00+00:00
+[2023-07-12 13:50:33,432] {standard_task_runner.py:52} INFO - Started process 20779 to run task
+[2023-07-12 13:50:33,434] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'TwitterDAG', 'twitter_datascience', 'scheduled__2023-07-06T00:00:00+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/twitter_dag.py', '--cfg-path', '/tmp/tmpt2a8dod2', '--error-file', '/tmp/tmp2123d2x7']
+[2023-07-12 13:50:33,434] {standard_task_runner.py:80} INFO - Job 5: Subtask twitter_datascience
+[2023-07-12 13:50:33,460] {task_command.py:370} INFO - Running <TaskInstance: TwitterDAG.twitter_datascience scheduled__2023-07-06T00:00:00+00:00 [running]> on host lucas-Estudos
+[2023-07-12 13:50:33,509] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=TwitterDAG
+AIRFLOW_CTX_TASK_ID=twitter_datascience
+AIRFLOW_CTX_EXECUTION_DATE=2023-07-06T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-07-06T00:00:00+00:00
+[2023-07-12 13:50:33,515] {base.py:68} INFO - Using connection ID 'twitter_default' for task execution.
+[2023-07-12 13:50:33,516] {twitter_hook.py:34} INFO - URL: https://labdados.com/2/tweets/search/recent?query=datascience&tweet.fields=author_id,conversation_id,created_at,id,in_reply_to_user_id,public_metrics,lang,text&expansions=author_id&user.fields=id,name,username,created_at&start_time=2023-07-06T00:00:00.00Z&end_time=2023-07-07T00:00:00.00Z
+[2023-07-12 13:50:34,134] {twitter_hook.py:34} INFO - URL: https://labdados.com/2/tweets/search/recent?query=datascience&tweet.fields=author_id,conversation_id,created_at,id,in_reply_to_user_id,public_metrics,lang,text&expansions=author_id&user.fields=id,name,username,created_at&start_time=2023-07-06T00:00:00.00Z&end_time=2023-07-07T00:00:00.00Z&next_token=1234567890abcdef
+[2023-07-12 13:50:34,254] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=TwitterDAG, task_id=twitter_datascience, execution_date=20230706T000000, start_date=20230712T165033, end_date=20230712T165034
+[2023-07-12 13:50:34,289] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-07-12 13:50:34,310] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

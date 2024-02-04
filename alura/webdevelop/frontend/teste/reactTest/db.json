@@ -1,0 +1,175 @@
+{
+  "conta": {
+    "saldo": 879
+  },
+  "transacoes": [
+    {
+      "valor": 10,
+      "transacao": "saque",
+      "data": "10/08/2020",
+      "id": 1
+    },
+    {
+      "transacao": "deposito",
+      "valor": "20",
+      "data": "26/09/2020",
+      "id": 2
+    },
+    {
+      "transacao": "deposito",
+      "valor": "1000",
+      "data": "26/09/2022",
+      "id": 3
+    },
+    {
+      "transacao": "deposito",
+      "valor": "1000",
+      "data": "26/09/2022",
+      "id": 4
+    },
+    {
+      "transacao": "deposito",
+      "valor": "1000",
+      "data": "26/09/2022",
+      "id": 5
+    },
+    {
+      "transacao": "deposito",
+      "valor": "1000",
+      "data": "26/09/2022",
+      "id": 6
+    },
+    {
+      "transacao": "saque",
+      "valor": "1230",
+      "data": "08/10/2022",
+      "id": 7
+    },
+    {
+      "transacao": "deposito",
+      "valor": "1230",
+      "data": "08/10/2022",
+      "id": 8
+    },
+    {
+      "transacao": "saque",
+      "valor": "3000",
+      "data": "18/10/2022",
+      "id": 9
+    },
+    {
+      "transacao": "saque",
+      "valor": 0,
+      "data": "2022-10-18",
+      "id": 10
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "2022-10-18",
+      "id": 11
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "2022-10-18",
+      "id": 12
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "2022-10-18",
+      "id": 13
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "2022-10-18",
+      "id": 14
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "2022-10-18",
+      "id": 15
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "2022-10-18",
+      "id": 16
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "2022-10-18",
+      "id": 17
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "2022-10-18",
+      "id": 18
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "2022-10-18",
+      "id": 19
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "2022-10-18",
+      "id": 20
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "2022-10-18",
+      "id": 21
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "2022-10-18",
+      "id": 22
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "2022-10-18",
+      "id": 23
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "2022-10-18",
+      "id": 24
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "2022-10-18",
+      "id": 25
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "2022-10-18",
+      "id": 26
+    },
+    {
+      "transacao": "saque",
+      "valor": "10",
+      "data": "23/10/2022",
+      "id": 27
+    },
+    {
+      "transacao": "saque",
+      "valor": "0121",
+      "data": "23/10/2022",
+      "id": 28
+    }
+  ]
+}

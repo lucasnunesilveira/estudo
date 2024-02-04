@@ -1,0 +1,115 @@
+[2023-07-17 16:23:06,102] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.MSFT scheduled__2023-05-25T00:00:00+00:00 [queued]>
+[2023-07-17 16:23:06,130] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.MSFT scheduled__2023-05-25T00:00:00+00:00 [queued]>
+[2023-07-17 16:23:06,130] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-17 16:23:06,130] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-07-17 16:23:06,130] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-17 16:23:06,206] {taskinstance.py:1377} INFO - Executing <Task(_PythonDecoratedOperator): MSFT> on 2023-05-25 00:00:00+00:00
+[2023-07-17 16:23:06,264] {standard_task_runner.py:52} INFO - Started process 8829 to run task
+[2023-07-17 16:23:06,270] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'get_stocks_dag', 'MSFT', 'scheduled__2023-05-25T00:00:00+00:00', '--job-id', '124', '--raw', '--subdir', 'DAGS_FOLDER/get_stocks.py', '--cfg-path', '/tmp/tmpl1g5jxtv', '--error-file', '/tmp/tmpcizy_3b_']
+[2023-07-17 16:23:06,272] {standard_task_runner.py:80} INFO - Job 124: Subtask MSFT
+[2023-07-17 16:23:06,459] {task_command.py:370} INFO - Running <TaskInstance: get_stocks_dag.MSFT scheduled__2023-05-25T00:00:00+00:00 [running]> on host lucas-Estudos
+[2023-07-17 16:23:06,711] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=get_stocks_dag
+AIRFLOW_CTX_TASK_ID=MSFT
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-25T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-05-25T00:00:00+00:00
+[2023-07-17 16:23:07,323] {python.py:173} INFO - Done. Returned value was: None
+[2023-07-17 16:23:07,360] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=get_stocks_dag, task_id=MSFT, execution_date=20230525T000000, start_date=20230717T192306, end_date=20230717T192307
+[2023-07-17 16:23:07,410] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-07-17 16:23:07,452] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-07-17 16:54:25,964] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.MSFT scheduled__2023-05-25T00:00:00+00:00 [queued]>
+[2023-07-17 16:54:25,973] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.MSFT scheduled__2023-05-25T00:00:00+00:00 [queued]>
+[2023-07-17 16:54:25,973] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-17 16:54:25,973] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-07-17 16:54:25,973] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-17 16:54:25,986] {taskinstance.py:1377} INFO - Executing <Task(_PythonDecoratedOperator): MSFT> on 2023-05-25 00:00:00+00:00
+[2023-07-17 16:54:25,991] {standard_task_runner.py:52} INFO - Started process 21607 to run task
+[2023-07-17 16:54:25,995] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'get_stocks_dag', 'MSFT', 'scheduled__2023-05-25T00:00:00+00:00', '--job-id', '339', '--raw', '--subdir', 'DAGS_FOLDER/get_stocks.py', '--cfg-path', '/tmp/tmpdojgo1mr', '--error-file', '/tmp/tmpma4ym6ix']
+[2023-07-17 16:54:25,995] {standard_task_runner.py:80} INFO - Job 339: Subtask MSFT
+[2023-07-17 16:54:26,099] {task_command.py:370} INFO - Running <TaskInstance: get_stocks_dag.MSFT scheduled__2023-05-25T00:00:00+00:00 [running]> on host lucas-Estudos
+[2023-07-17 16:54:26,200] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=get_stocks_dag
+AIRFLOW_CTX_TASK_ID=MSFT
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-25T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-05-25T00:00:00+00:00
+[2023-07-17 16:54:26,728] {python.py:173} INFO - Done. Returned value was: None
+[2023-07-17 16:54:26,828] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=get_stocks_dag, task_id=MSFT, execution_date=20230525T000000, start_date=20230717T195425, end_date=20230717T195426
+[2023-07-17 16:54:26,911] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-07-17 16:54:27,026] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-07-17 21:00:39,269] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.MSFT scheduled__2023-05-25T00:00:00+00:00 [queued]>
+[2023-07-17 21:00:39,277] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.MSFT scheduled__2023-05-25T00:00:00+00:00 [queued]>
+[2023-07-17 21:00:39,278] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-17 21:00:39,278] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-07-17 21:00:39,278] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-17 21:00:39,287] {taskinstance.py:1377} INFO - Executing <Task(_PythonDecoratedOperator): MSFT> on 2023-05-25 00:00:00+00:00
+[2023-07-17 21:00:39,293] {standard_task_runner.py:52} INFO - Started process 20879 to run task
+[2023-07-17 21:00:39,296] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'get_stocks_dag', 'MSFT', 'scheduled__2023-05-25T00:00:00+00:00', '--job-id', '557', '--raw', '--subdir', 'DAGS_FOLDER/get_stocks.py', '--cfg-path', '/tmp/tmpl_4i82uu', '--error-file', '/tmp/tmpvuqfbz__']
+[2023-07-17 21:00:39,297] {standard_task_runner.py:80} INFO - Job 557: Subtask MSFT
+[2023-07-17 21:00:39,433] {task_command.py:370} INFO - Running <TaskInstance: get_stocks_dag.MSFT scheduled__2023-05-25T00:00:00+00:00 [running]> on host lucas-Estudos
+[2023-07-17 21:00:39,692] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=get_stocks_dag
+AIRFLOW_CTX_TASK_ID=MSFT
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-25T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-05-25T00:00:00+00:00
+[2023-07-17 21:00:43,428] {python.py:173} INFO - Done. Returned value was: None
+[2023-07-17 21:00:43,479] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=get_stocks_dag, task_id=MSFT, execution_date=20230525T000000, start_date=20230718T000039, end_date=20230718T000043
+[2023-07-17 21:00:43,523] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-07-17 21:00:43,648] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-07-17 22:02:05,745] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.MSFT scheduled__2023-05-25T00:00:00+00:00 [queued]>
+[2023-07-17 22:02:05,780] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.MSFT scheduled__2023-05-25T00:00:00+00:00 [queued]>
+[2023-07-17 22:02:05,780] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-17 22:02:05,780] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-07-17 22:02:05,781] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-17 22:02:05,819] {taskinstance.py:1377} INFO - Executing <Task(_PythonDecoratedOperator): MSFT> on 2023-05-25 00:00:00+00:00
+[2023-07-17 22:02:05,833] {standard_task_runner.py:52} INFO - Started process 62198 to run task
+[2023-07-17 22:02:05,840] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'get_stocks_dag', 'MSFT', 'scheduled__2023-05-25T00:00:00+00:00', '--job-id', '853', '--raw', '--subdir', 'DAGS_FOLDER/get_stocks.py', '--cfg-path', '/tmp/tmpilai3bqb', '--error-file', '/tmp/tmpl902c3fy']
+[2023-07-17 22:02:05,841] {standard_task_runner.py:80} INFO - Job 853: Subtask MSFT
+[2023-07-17 22:02:05,920] {task_command.py:370} INFO - Running <TaskInstance: get_stocks_dag.MSFT scheduled__2023-05-25T00:00:00+00:00 [running]> on host lucas-Estudos
+[2023-07-17 22:02:06,023] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=get_stocks_dag
+AIRFLOW_CTX_TASK_ID=MSFT
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-25T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-05-25T00:00:00+00:00
+[2023-07-17 22:02:06,727] {python.py:173} INFO - Done. Returned value was: None
+[2023-07-17 22:02:06,762] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=get_stocks_dag, task_id=MSFT, execution_date=20230525T000000, start_date=20230718T010205, end_date=20230718T010206
+[2023-07-17 22:02:06,815] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-07-17 22:02:06,920] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-07-18 10:39:46,722] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.MSFT scheduled__2023-05-25T00:00:00+00:00 [queued]>
+[2023-07-18 10:39:46,744] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.MSFT scheduled__2023-05-25T00:00:00+00:00 [queued]>
+[2023-07-18 10:39:46,745] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-18 10:39:46,745] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-07-18 10:39:46,745] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-18 10:39:46,770] {taskinstance.py:1377} INFO - Executing <Task(_PythonDecoratedOperator): MSFT> on 2023-05-25 00:00:00+00:00
+[2023-07-18 10:39:46,781] {standard_task_runner.py:52} INFO - Started process 15228 to run task
+[2023-07-18 10:39:46,790] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'get_stocks_dag', 'MSFT', 'scheduled__2023-05-25T00:00:00+00:00', '--job-id', '1323', '--raw', '--subdir', 'DAGS_FOLDER/get_stocks.py', '--cfg-path', '/tmp/tmp2idtqflq', '--error-file', '/tmp/tmpazdsdbr4']
+[2023-07-18 10:39:46,792] {standard_task_runner.py:80} INFO - Job 1323: Subtask MSFT
+[2023-07-18 10:39:46,957] {task_command.py:370} INFO - Running <TaskInstance: get_stocks_dag.MSFT scheduled__2023-05-25T00:00:00+00:00 [running]> on host lucas-Estudos
+[2023-07-18 10:39:47,060] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=get_stocks_dag
+AIRFLOW_CTX_TASK_ID=MSFT
+AIRFLOW_CTX_EXECUTION_DATE=2023-05-25T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-05-25T00:00:00+00:00
+[2023-07-18 10:39:55,939] {python.py:173} INFO - Done. Returned value was: None
+[2023-07-18 10:39:55,991] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=get_stocks_dag, task_id=MSFT, execution_date=20230525T000000, start_date=20230718T133946, end_date=20230718T133955
+[2023-07-18 10:39:56,066] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-07-18 10:39:56,166] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

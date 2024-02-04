@@ -1,0 +1,48 @@
+[2023-07-17 22:20:22,103] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_crypto_dag.AVAX scheduled__2023-06-22T00:00:00+00:00 [queued]>
+[2023-07-17 22:20:22,135] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_crypto_dag.AVAX scheduled__2023-06-22T00:00:00+00:00 [queued]>
+[2023-07-17 22:20:22,136] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-17 22:20:22,136] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-07-17 22:20:22,136] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-17 22:20:22,173] {taskinstance.py:1377} INFO - Executing <Task(_PythonDecoratedOperator): AVAX> on 2023-06-22 00:00:00+00:00
+[2023-07-17 22:20:22,183] {standard_task_runner.py:52} INFO - Started process 99234 to run task
+[2023-07-17 22:20:22,191] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'get_crypto_dag', 'AVAX', 'scheduled__2023-06-22T00:00:00+00:00', '--job-id', '1125', '--raw', '--subdir', 'DAGS_FOLDER/get_crypto.py', '--cfg-path', '/tmp/tmp_bv0ebv6', '--error-file', '/tmp/tmpih0gj8wk']
+[2023-07-17 22:20:22,194] {standard_task_runner.py:80} INFO - Job 1125: Subtask AVAX
+[2023-07-17 22:20:22,411] {task_command.py:370} INFO - Running <TaskInstance: get_crypto_dag.AVAX scheduled__2023-06-22T00:00:00+00:00 [running]> on host lucas-Estudos
+[2023-07-17 22:20:22,665] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=get_crypto_dag
+AIRFLOW_CTX_TASK_ID=AVAX
+AIRFLOW_CTX_EXECUTION_DATE=2023-06-22T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-06-22T00:00:00+00:00
+[2023-07-17 22:20:29,427] {base.py:162} ERROR - AVAX: No timezone found, symbol may be delisted
+[2023-07-17 22:20:29,435] {python.py:173} INFO - Done. Returned value was: None
+[2023-07-17 22:20:29,487] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=get_crypto_dag, task_id=AVAX, execution_date=20230622T000000, start_date=20230718T012022, end_date=20230718T012029
+[2023-07-17 22:20:29,556] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-07-17 22:20:29,794] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-07-18 11:00:47,469] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_crypto_dag.AVAX scheduled__2023-06-22T00:00:00+00:00 [queued]>
+[2023-07-18 11:00:47,493] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_crypto_dag.AVAX scheduled__2023-06-22T00:00:00+00:00 [queued]>
+[2023-07-18 11:00:47,494] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-18 11:00:47,494] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-07-18 11:00:47,494] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-18 11:00:47,522] {taskinstance.py:1377} INFO - Executing <Task(_PythonDecoratedOperator): AVAX> on 2023-06-22 00:00:00+00:00
+[2023-07-18 11:00:47,535] {standard_task_runner.py:52} INFO - Started process 25089 to run task
+[2023-07-18 11:00:47,542] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'get_crypto_dag', 'AVAX', 'scheduled__2023-06-22T00:00:00+00:00', '--job-id', '1513', '--raw', '--subdir', 'DAGS_FOLDER/get_crypto.py', '--cfg-path', '/tmp/tmpn2a0sik6', '--error-file', '/tmp/tmp_r_9yhf_']
+[2023-07-18 11:00:47,544] {standard_task_runner.py:80} INFO - Job 1513: Subtask AVAX
+[2023-07-18 11:00:47,734] {task_command.py:370} INFO - Running <TaskInstance: get_crypto_dag.AVAX scheduled__2023-06-22T00:00:00+00:00 [running]> on host lucas-Estudos
+[2023-07-18 11:00:47,957] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=get_crypto_dag
+AIRFLOW_CTX_TASK_ID=AVAX
+AIRFLOW_CTX_EXECUTION_DATE=2023-06-22T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-06-22T00:00:00+00:00
+[2023-07-18 11:00:48,618] {base.py:162} ERROR - AVAX: No timezone found, symbol may be delisted
+[2023-07-18 11:00:48,621] {python.py:173} INFO - Done. Returned value was: None
+[2023-07-18 11:00:48,635] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=get_crypto_dag, task_id=AVAX, execution_date=20230622T000000, start_date=20230718T140047, end_date=20230718T140048
+[2023-07-18 11:00:48,676] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-07-18 11:00:48,763] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

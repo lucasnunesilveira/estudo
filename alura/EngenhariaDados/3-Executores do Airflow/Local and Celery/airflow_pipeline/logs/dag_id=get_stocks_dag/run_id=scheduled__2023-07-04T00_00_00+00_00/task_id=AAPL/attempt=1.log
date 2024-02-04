@@ -1,0 +1,115 @@
+[2023-07-17 16:23:41,698] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.AAPL scheduled__2023-07-04T00:00:00+00:00 [queued]>
+[2023-07-17 16:23:41,732] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.AAPL scheduled__2023-07-04T00:00:00+00:00 [queued]>
+[2023-07-17 16:23:41,732] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-17 16:23:41,732] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-07-17 16:23:41,732] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-17 16:23:41,791] {taskinstance.py:1377} INFO - Executing <Task(_PythonDecoratedOperator): AAPL> on 2023-07-04 00:00:00+00:00
+[2023-07-17 16:23:41,797] {standard_task_runner.py:52} INFO - Started process 11955 to run task
+[2023-07-17 16:23:41,850] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'get_stocks_dag', 'AAPL', 'scheduled__2023-07-04T00:00:00+00:00', '--job-id', '232', '--raw', '--subdir', 'DAGS_FOLDER/get_stocks.py', '--cfg-path', '/tmp/tmpttp2hb9p', '--error-file', '/tmp/tmp7p9ifmsa']
+[2023-07-17 16:23:41,852] {standard_task_runner.py:80} INFO - Job 232: Subtask AAPL
+[2023-07-17 16:23:42,098] {task_command.py:370} INFO - Running <TaskInstance: get_stocks_dag.AAPL scheduled__2023-07-04T00:00:00+00:00 [running]> on host lucas-Estudos
+[2023-07-17 16:23:42,398] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=get_stocks_dag
+AIRFLOW_CTX_TASK_ID=AAPL
+AIRFLOW_CTX_EXECUTION_DATE=2023-07-04T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-07-04T00:00:00+00:00
+[2023-07-17 16:23:43,056] {python.py:173} INFO - Done. Returned value was: None
+[2023-07-17 16:23:43,101] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=get_stocks_dag, task_id=AAPL, execution_date=20230704T000000, start_date=20230717T192341, end_date=20230717T192343
+[2023-07-17 16:23:43,188] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-07-17 16:23:43,335] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-07-17 16:55:00,964] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.AAPL scheduled__2023-07-04T00:00:00+00:00 [queued]>
+[2023-07-17 16:55:01,049] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.AAPL scheduled__2023-07-04T00:00:00+00:00 [queued]>
+[2023-07-17 16:55:01,049] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-17 16:55:01,050] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-07-17 16:55:01,050] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-17 16:55:01,127] {taskinstance.py:1377} INFO - Executing <Task(_PythonDecoratedOperator): AAPL> on 2023-07-04 00:00:00+00:00
+[2023-07-17 16:55:01,168] {standard_task_runner.py:52} INFO - Started process 24730 to run task
+[2023-07-17 16:55:01,174] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'get_stocks_dag', 'AAPL', 'scheduled__2023-07-04T00:00:00+00:00', '--job-id', '445', '--raw', '--subdir', 'DAGS_FOLDER/get_stocks.py', '--cfg-path', '/tmp/tmp5rtg6nct', '--error-file', '/tmp/tmp3ko_t_o1']
+[2023-07-17 16:55:01,175] {standard_task_runner.py:80} INFO - Job 445: Subtask AAPL
+[2023-07-17 16:55:01,416] {task_command.py:370} INFO - Running <TaskInstance: get_stocks_dag.AAPL scheduled__2023-07-04T00:00:00+00:00 [running]> on host lucas-Estudos
+[2023-07-17 16:55:01,764] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=get_stocks_dag
+AIRFLOW_CTX_TASK_ID=AAPL
+AIRFLOW_CTX_EXECUTION_DATE=2023-07-04T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-07-04T00:00:00+00:00
+[2023-07-17 16:55:02,630] {python.py:173} INFO - Done. Returned value was: None
+[2023-07-17 16:55:02,705] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=get_stocks_dag, task_id=AAPL, execution_date=20230704T000000, start_date=20230717T195501, end_date=20230717T195502
+[2023-07-17 16:55:02,751] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-07-17 16:55:02,869] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-07-17 21:08:06,106] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.AAPL scheduled__2023-07-04T00:00:00+00:00 [queued]>
+[2023-07-17 21:08:06,118] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.AAPL scheduled__2023-07-04T00:00:00+00:00 [queued]>
+[2023-07-17 21:08:06,118] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-17 21:08:06,118] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-07-17 21:08:06,118] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-17 21:08:06,131] {taskinstance.py:1377} INFO - Executing <Task(_PythonDecoratedOperator): AAPL> on 2023-07-04 00:00:00+00:00
+[2023-07-17 21:08:06,136] {standard_task_runner.py:52} INFO - Started process 34888 to run task
+[2023-07-17 21:08:06,140] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'get_stocks_dag', 'AAPL', 'scheduled__2023-07-04T00:00:00+00:00', '--job-id', '668', '--raw', '--subdir', 'DAGS_FOLDER/get_stocks.py', '--cfg-path', '/tmp/tmpg3mw3obz', '--error-file', '/tmp/tmpov1uzrqv']
+[2023-07-17 21:08:06,141] {standard_task_runner.py:80} INFO - Job 668: Subtask AAPL
+[2023-07-17 21:08:06,319] {task_command.py:370} INFO - Running <TaskInstance: get_stocks_dag.AAPL scheduled__2023-07-04T00:00:00+00:00 [running]> on host lucas-Estudos
+[2023-07-17 21:08:06,584] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=get_stocks_dag
+AIRFLOW_CTX_TASK_ID=AAPL
+AIRFLOW_CTX_EXECUTION_DATE=2023-07-04T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-07-04T00:00:00+00:00
+[2023-07-17 21:08:10,406] {python.py:173} INFO - Done. Returned value was: None
+[2023-07-17 21:08:10,463] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=get_stocks_dag, task_id=AAPL, execution_date=20230704T000000, start_date=20230718T000806, end_date=20230718T000810
+[2023-07-17 21:08:10,527] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-07-17 21:08:10,694] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-07-17 22:17:35,286] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.AAPL scheduled__2023-07-04T00:00:00+00:00 [queued]>
+[2023-07-17 22:17:35,296] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.AAPL scheduled__2023-07-04T00:00:00+00:00 [queued]>
+[2023-07-17 22:17:35,296] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-17 22:17:35,297] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-07-17 22:17:35,297] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-17 22:17:35,309] {taskinstance.py:1377} INFO - Executing <Task(_PythonDecoratedOperator): AAPL> on 2023-07-04 00:00:00+00:00
+[2023-07-17 22:17:35,315] {standard_task_runner.py:52} INFO - Started process 93660 to run task
+[2023-07-17 22:17:35,318] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'get_stocks_dag', 'AAPL', 'scheduled__2023-07-04T00:00:00+00:00', '--job-id', '1083', '--raw', '--subdir', 'DAGS_FOLDER/get_stocks.py', '--cfg-path', '/tmp/tmpskflu0im', '--error-file', '/tmp/tmpxjc6jjqj']
+[2023-07-17 22:17:35,319] {standard_task_runner.py:80} INFO - Job 1083: Subtask AAPL
+[2023-07-17 22:17:35,381] {task_command.py:370} INFO - Running <TaskInstance: get_stocks_dag.AAPL scheduled__2023-07-04T00:00:00+00:00 [running]> on host lucas-Estudos
+[2023-07-17 22:17:35,591] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=get_stocks_dag
+AIRFLOW_CTX_TASK_ID=AAPL
+AIRFLOW_CTX_EXECUTION_DATE=2023-07-04T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-07-04T00:00:00+00:00
+[2023-07-17 22:17:40,326] {python.py:173} INFO - Done. Returned value was: None
+[2023-07-17 22:17:40,415] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=get_stocks_dag, task_id=AAPL, execution_date=20230704T000000, start_date=20230718T011735, end_date=20230718T011740
+[2023-07-17 22:17:40,446] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-07-17 22:17:40,489] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-07-18 11:09:08,663] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.AAPL scheduled__2023-07-04T00:00:00+00:00 [queued]>
+[2023-07-18 11:09:08,685] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.AAPL scheduled__2023-07-04T00:00:00+00:00 [queued]>
+[2023-07-18 11:09:08,685] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-18 11:09:08,685] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-07-18 11:09:08,685] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-18 11:09:08,713] {taskinstance.py:1377} INFO - Executing <Task(_PythonDecoratedOperator): AAPL> on 2023-07-04 00:00:00+00:00
+[2023-07-18 11:09:08,723] {standard_task_runner.py:52} INFO - Started process 27502 to run task
+[2023-07-18 11:09:08,730] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'get_stocks_dag', 'AAPL', 'scheduled__2023-07-04T00:00:00+00:00', '--job-id', '1589', '--raw', '--subdir', 'DAGS_FOLDER/get_stocks.py', '--cfg-path', '/tmp/tmp0_krafo8', '--error-file', '/tmp/tmplx47kwhi']
+[2023-07-18 11:09:08,732] {standard_task_runner.py:80} INFO - Job 1589: Subtask AAPL
+[2023-07-18 11:09:08,924] {task_command.py:370} INFO - Running <TaskInstance: get_stocks_dag.AAPL scheduled__2023-07-04T00:00:00+00:00 [running]> on host lucas-Estudos
+[2023-07-18 11:09:09,146] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=get_stocks_dag
+AIRFLOW_CTX_TASK_ID=AAPL
+AIRFLOW_CTX_EXECUTION_DATE=2023-07-04T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-07-04T00:00:00+00:00
+[2023-07-18 11:09:09,693] {python.py:173} INFO - Done. Returned value was: None
+[2023-07-18 11:09:09,805] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=get_stocks_dag, task_id=AAPL, execution_date=20230704T000000, start_date=20230718T140908, end_date=20230718T140909
+[2023-07-18 11:09:09,865] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-07-18 11:09:09,986] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

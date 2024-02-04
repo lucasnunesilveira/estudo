@@ -1,0 +1,23 @@
+[2023-07-08 01:05:23,590] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dados_climaticos.extrai_dados scheduled__2022-08-15T00:00:00+00:00 [queued]>
+[2023-07-08 01:05:23,597] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dados_climaticos.extrai_dados scheduled__2022-08-15T00:00:00+00:00 [queued]>
+[2023-07-08 01:05:23,597] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-08 01:05:23,597] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-07-08 01:05:23,597] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-08 01:05:23,610] {taskinstance.py:1377} INFO - Executing <Task(PythonOperator): extrai_dados> on 2022-08-15 00:00:00+00:00
+[2023-07-08 01:05:23,615] {standard_task_runner.py:52} INFO - Started process 37758 to run task
+[2023-07-08 01:05:23,618] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'dados_climaticos', 'extrai_dados', 'scheduled__2022-08-15T00:00:00+00:00', '--job-id', '26', '--raw', '--subdir', 'DAGS_FOLDER/dados_climaticos.py', '--cfg-path', '/tmp/tmpp392v25a', '--error-file', '/tmp/tmp4sh7jpes']
+[2023-07-08 01:05:23,619] {standard_task_runner.py:80} INFO - Job 26: Subtask extrai_dados
+[2023-07-08 01:05:23,656] {task_command.py:370} INFO - Running <TaskInstance: dados_climaticos.extrai_dados scheduled__2022-08-15T00:00:00+00:00 [running]> on host lucas-Estudos
+[2023-07-08 01:05:23,712] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=dados_climaticos
+AIRFLOW_CTX_TASK_ID=extrai_dados
+AIRFLOW_CTX_EXECUTION_DATE=2022-08-15T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-08-15T00:00:00+00:00
+[2023-07-08 01:05:24,566] {python.py:173} INFO - Done. Returned value was: None
+[2023-07-08 01:05:24,584] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=dados_climaticos, task_id=extrai_dados, execution_date=20220815T000000, start_date=20230708T040523, end_date=20230708T040524
+[2023-07-08 01:05:24,635] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-07-08 01:05:24,673] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

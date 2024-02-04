@@ -1,0 +1,48 @@
+[2023-07-17 22:08:44,462] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_crypto_dag.DOGE scheduled__2023-06-01T00:00:00+00:00 [queued]>
+[2023-07-17 22:08:44,468] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_crypto_dag.DOGE scheduled__2023-06-01T00:00:00+00:00 [queued]>
+[2023-07-17 22:08:44,468] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-17 22:08:44,468] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-07-17 22:08:44,468] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-17 22:08:44,478] {taskinstance.py:1377} INFO - Executing <Task(_PythonDecoratedOperator): DOGE> on 2023-06-01 00:00:00+00:00
+[2023-07-17 22:08:44,482] {standard_task_runner.py:52} INFO - Started process 75748 to run task
+[2023-07-17 22:08:44,484] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'get_crypto_dag', 'DOGE', 'scheduled__2023-06-01T00:00:00+00:00', '--job-id', '952', '--raw', '--subdir', 'DAGS_FOLDER/get_crypto.py', '--cfg-path', '/tmp/tmpdax9qi0x', '--error-file', '/tmp/tmparva46lb']
+[2023-07-17 22:08:44,485] {standard_task_runner.py:80} INFO - Job 952: Subtask DOGE
+[2023-07-17 22:08:44,542] {task_command.py:370} INFO - Running <TaskInstance: get_crypto_dag.DOGE scheduled__2023-06-01T00:00:00+00:00 [running]> on host lucas-Estudos
+[2023-07-17 22:08:44,615] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=get_crypto_dag
+AIRFLOW_CTX_TASK_ID=DOGE
+AIRFLOW_CTX_EXECUTION_DATE=2023-06-01T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-06-01T00:00:00+00:00
+[2023-07-17 22:08:46,200] {base.py:162} ERROR - DOGE: No timezone found, symbol may be delisted
+[2023-07-17 22:08:46,210] {python.py:173} INFO - Done. Returned value was: None
+[2023-07-17 22:08:46,263] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=get_crypto_dag, task_id=DOGE, execution_date=20230601T000000, start_date=20230718T010844, end_date=20230718T010846
+[2023-07-17 22:08:46,304] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-07-17 22:08:46,418] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-07-18 10:44:43,361] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_crypto_dag.DOGE scheduled__2023-06-01T00:00:00+00:00 [queued]>
+[2023-07-18 10:44:43,382] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_crypto_dag.DOGE scheduled__2023-06-01T00:00:00+00:00 [queued]>
+[2023-07-18 10:44:43,382] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-18 10:44:43,382] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-07-18 10:44:43,382] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-18 10:44:43,406] {taskinstance.py:1377} INFO - Executing <Task(_PythonDecoratedOperator): DOGE> on 2023-06-01 00:00:00+00:00
+[2023-07-18 10:44:43,415] {standard_task_runner.py:52} INFO - Started process 16725 to run task
+[2023-07-18 10:44:43,421] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'get_crypto_dag', 'DOGE', 'scheduled__2023-06-01T00:00:00+00:00', '--job-id', '1368', '--raw', '--subdir', 'DAGS_FOLDER/get_crypto.py', '--cfg-path', '/tmp/tmph8lwtbhs', '--error-file', '/tmp/tmp2q9wyyd0']
+[2023-07-18 10:44:43,423] {standard_task_runner.py:80} INFO - Job 1368: Subtask DOGE
+[2023-07-18 10:44:43,596] {task_command.py:370} INFO - Running <TaskInstance: get_crypto_dag.DOGE scheduled__2023-06-01T00:00:00+00:00 [running]> on host lucas-Estudos
+[2023-07-18 10:44:43,808] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=get_crypto_dag
+AIRFLOW_CTX_TASK_ID=DOGE
+AIRFLOW_CTX_EXECUTION_DATE=2023-06-01T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-06-01T00:00:00+00:00
+[2023-07-18 10:44:47,853] {base.py:162} ERROR - DOGE: No timezone found, symbol may be delisted
+[2023-07-18 10:44:47,862] {python.py:173} INFO - Done. Returned value was: None
+[2023-07-18 10:44:47,914] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=get_crypto_dag, task_id=DOGE, execution_date=20230601T000000, start_date=20230718T134443, end_date=20230718T134447
+[2023-07-18 10:44:47,971] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-07-18 10:44:48,089] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

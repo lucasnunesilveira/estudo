@@ -1,0 +1,140 @@
+[2023-07-17 16:23:29,467] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.TSLA scheduled__2023-06-20T00:00:00+00:00 [queued]>
+[2023-07-17 16:23:29,493] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.TSLA scheduled__2023-06-20T00:00:00+00:00 [queued]>
+[2023-07-17 16:23:29,493] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-17 16:23:29,493] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-07-17 16:23:29,493] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-17 16:23:29,538] {taskinstance.py:1377} INFO - Executing <Task(_PythonDecoratedOperator): TSLA> on 2023-06-20 00:00:00+00:00
+[2023-07-17 16:23:29,556] {standard_task_runner.py:52} INFO - Started process 10819 to run task
+[2023-07-17 16:23:29,582] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'get_stocks_dag', 'TSLA', 'scheduled__2023-06-20T00:00:00+00:00', '--job-id', '193', '--raw', '--subdir', 'DAGS_FOLDER/get_stocks.py', '--cfg-path', '/tmp/tmp3zym_kgn', '--error-file', '/tmp/tmpbxilvip_']
+[2023-07-17 16:23:29,584] {standard_task_runner.py:80} INFO - Job 193: Subtask TSLA
+[2023-07-17 16:23:29,901] {task_command.py:370} INFO - Running <TaskInstance: get_stocks_dag.TSLA scheduled__2023-06-20T00:00:00+00:00 [running]> on host lucas-Estudos
+[2023-07-17 16:23:30,234] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=get_stocks_dag
+AIRFLOW_CTX_TASK_ID=TSLA
+AIRFLOW_CTX_EXECUTION_DATE=2023-06-20T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-06-20T00:00:00+00:00
+[2023-07-17 16:23:30,850] {base.py:297} ERROR - TSLA: No price data found, symbol may be delisted (1h 2023-06-19 -> 2023-06-20)
+[2023-07-17 16:23:30,864] {python.py:173} INFO - Done. Returned value was: None
+[2023-07-17 16:23:30,910] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=get_stocks_dag, task_id=TSLA, execution_date=20230620T000000, start_date=20230717T192329, end_date=20230717T192330
+[2023-07-17 16:23:30,992] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-07-17 16:23:31,093] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-07-17 16:54:48,216] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.TSLA scheduled__2023-06-20T00:00:00+00:00 [queued]>
+[2023-07-17 16:54:48,297] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.TSLA scheduled__2023-06-20T00:00:00+00:00 [queued]>
+[2023-07-17 16:54:48,297] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-17 16:54:48,297] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-07-17 16:54:48,297] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-17 16:54:48,380] {taskinstance.py:1377} INFO - Executing <Task(_PythonDecoratedOperator): TSLA> on 2023-06-20 00:00:00+00:00
+[2023-07-17 16:54:48,412] {standard_task_runner.py:52} INFO - Started process 23590 to run task
+[2023-07-17 16:54:48,435] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'get_stocks_dag', 'TSLA', 'scheduled__2023-06-20T00:00:00+00:00', '--job-id', '410', '--raw', '--subdir', 'DAGS_FOLDER/get_stocks.py', '--cfg-path', '/tmp/tmp1rpzwnsd', '--error-file', '/tmp/tmpcy80iv8w']
+[2023-07-17 16:54:48,446] {standard_task_runner.py:80} INFO - Job 410: Subtask TSLA
+[2023-07-17 16:54:48,648] {task_command.py:370} INFO - Running <TaskInstance: get_stocks_dag.TSLA scheduled__2023-06-20T00:00:00+00:00 [running]> on host lucas-Estudos
+[2023-07-17 16:54:48,904] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=get_stocks_dag
+AIRFLOW_CTX_TASK_ID=TSLA
+AIRFLOW_CTX_EXECUTION_DATE=2023-06-20T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-06-20T00:00:00+00:00
+[2023-07-17 16:54:49,553] {base.py:297} ERROR - TSLA: No price data found, symbol may be delisted (1h 2023-06-19 -> 2023-06-20)
+[2023-07-17 16:54:49,557] {python.py:173} INFO - Done. Returned value was: None
+[2023-07-17 16:54:49,597] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=get_stocks_dag, task_id=TSLA, execution_date=20230620T000000, start_date=20230717T195448, end_date=20230717T195449
+[2023-07-17 16:54:49,673] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-07-17 16:54:49,750] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-07-17 21:05:32,326] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.TSLA scheduled__2023-06-20T00:00:00+00:00 [queued]>
+[2023-07-17 21:05:32,337] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.TSLA scheduled__2023-06-20T00:00:00+00:00 [queued]>
+[2023-07-17 21:05:32,337] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-17 21:05:32,337] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-07-17 21:05:32,337] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-17 21:05:32,350] {taskinstance.py:1377} INFO - Executing <Task(_PythonDecoratedOperator): TSLA> on 2023-06-20 00:00:00+00:00
+[2023-07-17 21:05:32,356] {standard_task_runner.py:52} INFO - Started process 28713 to run task
+[2023-07-17 21:05:32,359] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'get_stocks_dag', 'TSLA', 'scheduled__2023-06-20T00:00:00+00:00', '--job-id', '631', '--raw', '--subdir', 'DAGS_FOLDER/get_stocks.py', '--cfg-path', '/tmp/tmpeiuhmbp8', '--error-file', '/tmp/tmp8tvrvdue']
+[2023-07-17 21:05:32,360] {standard_task_runner.py:80} INFO - Job 631: Subtask TSLA
+[2023-07-17 21:05:32,478] {task_command.py:370} INFO - Running <TaskInstance: get_stocks_dag.TSLA scheduled__2023-06-20T00:00:00+00:00 [running]> on host lucas-Estudos
+[2023-07-17 21:05:32,684] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=get_stocks_dag
+AIRFLOW_CTX_TASK_ID=TSLA
+AIRFLOW_CTX_EXECUTION_DATE=2023-06-20T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-06-20T00:00:00+00:00
+[2023-07-17 21:05:35,307] {base.py:297} ERROR - TSLA: No price data found, symbol may be delisted (1h 2023-06-19 -> 2023-06-20)
+[2023-07-17 21:05:35,310] {python.py:173} INFO - Done. Returned value was: None
+[2023-07-17 21:05:35,335] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=get_stocks_dag, task_id=TSLA, execution_date=20230620T000000, start_date=20230718T000532, end_date=20230718T000535
+[2023-07-17 21:05:35,381] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-07-17 21:05:35,503] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-07-17 22:12:13,322] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.TSLA scheduled__2023-06-20T00:00:00+00:00 [queued]>
+[2023-07-17 22:12:13,357] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.TSLA scheduled__2023-06-20T00:00:00+00:00 [queued]>
+[2023-07-17 22:12:13,357] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-17 22:12:13,358] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-07-17 22:12:13,358] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-17 22:12:13,392] {taskinstance.py:1377} INFO - Executing <Task(_PythonDecoratedOperator): TSLA> on 2023-06-20 00:00:00+00:00
+[2023-07-17 22:12:13,406] {standard_task_runner.py:52} INFO - Started process 82779 to run task
+[2023-07-17 22:12:13,412] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'get_stocks_dag', 'TSLA', 'scheduled__2023-06-20T00:00:00+00:00', '--job-id', '1004', '--raw', '--subdir', 'DAGS_FOLDER/get_stocks.py', '--cfg-path', '/tmp/tmp6c938yyv', '--error-file', '/tmp/tmponcmguws']
+[2023-07-17 22:12:13,415] {standard_task_runner.py:80} INFO - Job 1004: Subtask TSLA
+[2023-07-17 22:12:13,505] {task_command.py:370} INFO - Running <TaskInstance: get_stocks_dag.TSLA scheduled__2023-06-20T00:00:00+00:00 [running]> on host lucas-Estudos
+[2023-07-17 22:12:13,711] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=get_stocks_dag
+AIRFLOW_CTX_TASK_ID=TSLA
+AIRFLOW_CTX_EXECUTION_DATE=2023-06-20T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-06-20T00:00:00+00:00
+[2023-07-17 22:12:18,405] {base.py:297} ERROR - TSLA: No price data found, symbol may be delisted (1h 2023-06-19 -> 2023-06-20)
+[2023-07-17 22:12:18,414] {python.py:173} INFO - Done. Returned value was: None
+[2023-07-17 22:12:18,467] {taskinstance.py:1395} INFO - Marking task as SUCCESS. dag_id=get_stocks_dag, task_id=TSLA, execution_date=20230620T000000, start_date=20230718T011213, end_date=20230718T011218
+[2023-07-17 22:12:18,605] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-07-17 22:12:18,723] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-07-18 10:58:46,410] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.TSLA scheduled__2023-06-20T00:00:00+00:00 [queued]>
+[2023-07-18 10:58:46,436] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: get_stocks_dag.TSLA scheduled__2023-06-20T00:00:00+00:00 [queued]>
+[2023-07-18 10:58:46,437] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-18 10:58:46,437] {taskinstance.py:1357} INFO - Starting attempt 1 of 1
+[2023-07-18 10:58:46,437] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-18 10:58:46,471] {taskinstance.py:1377} INFO - Executing <Task(_PythonDecoratedOperator): TSLA> on 2023-06-20 00:00:00+00:00
+[2023-07-18 10:58:46,483] {standard_task_runner.py:52} INFO - Started process 24587 to run task
+[2023-07-18 10:58:46,490] {standard_task_runner.py:79} INFO - Running: ['airflow', 'tasks', 'run', 'get_stocks_dag', 'TSLA', 'scheduled__2023-06-20T00:00:00+00:00', '--job-id', '1496', '--raw', '--subdir', 'DAGS_FOLDER/get_stocks.py', '--cfg-path', '/tmp/tmpbra9jl9c', '--error-file', '/tmp/tmpoq9dbiag']
+[2023-07-18 10:58:46,493] {standard_task_runner.py:80} INFO - Job 1496: Subtask TSLA
+[2023-07-18 10:58:46,677] {task_command.py:370} INFO - Running <TaskInstance: get_stocks_dag.TSLA scheduled__2023-06-20T00:00:00+00:00 [running]> on host lucas-Estudos
+[2023-07-18 10:58:46,899] {taskinstance.py:1569} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=get_stocks_dag
+AIRFLOW_CTX_TASK_ID=TSLA
+AIRFLOW_CTX_EXECUTION_DATE=2023-06-20T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-06-20T00:00:00+00:00
+[2023-07-18 10:58:47,546] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/lucas/.local/lib/python3.10/site-packages/airflow/decorators/base.py", line 179, in execute
+    return_value = super().execute(context)
+  File "/home/lucas/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/lucas/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/lucas/Área de Trabalho/Alura/EngenhariaDados/3-Executores do Airflow/Local and Celery/airflow_pipeline/dags/get_stocks.py", line 19, in get_history
+    yfinance.Ticker(ticker).history(
+  File "/home/lucas/.local/lib/python3.10/site-packages/yfinance/utils.py", line 105, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/lucas/.local/lib/python3.10/site-packages/yfinance/base.py", line 299, in history
+    logger.debug(f'{self.ticker}: yfinance received OHLC data: {quotes.index[0]} -> {quotes.index[-1]}')
+  File "/home/lucas/.local/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 5175, in __getitem__
+    return getitem(key)
+  File "/home/lucas/.local/lib/python3.10/site-packages/pandas/core/arrays/datetimelike.py", line 370, in __getitem__
+    "Union[DatetimeLikeArrayT, DTScalarOrNaT]", super().__getitem__(key)
+  File "/home/lucas/.local/lib/python3.10/site-packages/pandas/core/arrays/_mixins.py", line 272, in __getitem__
+    result = self._ndarray[key]
+IndexError: index 0 is out of bounds for axis 0 with size 0
+[2023-07-18 10:58:47,595] {taskinstance.py:1395} INFO - Marking task as FAILED. dag_id=get_stocks_dag, task_id=TSLA, execution_date=20230620T000000, start_date=20230718T135846, end_date=20230718T135847
+[2023-07-18 10:58:47,620] {standard_task_runner.py:92} ERROR - Failed to execute job 1496 for task TSLA (index 0 is out of bounds for axis 0 with size 0; 24587)
+[2023-07-18 10:58:47,667] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-07-18 10:58:47,780] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
