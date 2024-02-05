@@ -1,5 +1,5 @@
 # estudo
-Ness repositorio estudo estar subdividido em algumas partes 
+Nesse repositorio estudo estar subdividido em algumas partes 
 
 Alura -> onde tem varios cursos feitos dentro do curso de o Alura cursos, alguns estudos de banco de dados, ciência de dados, desenvolvimento na area de web e tambem na área de engenharia de dados
 
