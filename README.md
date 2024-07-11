@@ -1,12 +1,28 @@
-# estudo
-Nesse repositorio estudo estar subdividido em algumas partes 
+# Study Repository
 
-Alura -> onde tem varios cursos feitos dentro do curso de o Alura cursos, alguns estudos de banco de dados, ciência de dados, desenvolvimento na area de web e tambem na área de engenharia de dados
+This repository documents my learning journey, which is divided into several parts:
 
-Estagio(Labs)-> Foi um periodo, onde dentro de um ano e meio de estagio passei 1 mês estudando um pouco sobre ciência de dados.
+## Alura Courses
+- Various courses covering:
+  - Database studies
+  - Data science
+  - Web development
+  - Data engineering
 
-Introdução à Programação com Python Algoritmos e lógica de programação para iniciantes -> Um livro introdutorio sobre a linguagem de programação de python, onde cada capitulo, foi feito os exercicios de em python. 
+## Internship (Labs)
+- One month dedicated to studying data science during a year and a half internship.
 
-Udemy-> Existe varios tipos de cursos voltada a parte de python do básico, e tambem na área de dados.
+## "Introdução à Programação com Python" - Algorithms and Logic for Beginners
+- An introductory book on Python programming.
+- Covered fundamental algorithms and logic.
+- Completed exercises in Python for each chapter.
 
-:smiley: :file_folder: :blue_book: 
+## Udemy Courses
+- Several courses focused on Python:
+  - From basics to advanced data analysis.
+
+## Emojis Used:
+- :smiley: for general achievements and positive experiences.
+- :file_folder: for organizational aspects and structure.
+- :blue_book: for educational resources and learning materials.
+
