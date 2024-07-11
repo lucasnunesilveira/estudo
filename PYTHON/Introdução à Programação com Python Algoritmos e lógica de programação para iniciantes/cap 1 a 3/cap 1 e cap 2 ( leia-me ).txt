@@ -1,3 +1,0 @@
-Nos capitulo 2  e capitulo 1  foram abortados assuntos 
-que reference a instalação e o uso do interpretador do 
-python , idle .
