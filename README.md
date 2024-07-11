@@ -21,8 +21,3 @@ This repository documents my learning journey, which is divided into several par
 - Several courses focused on Python:
   - From basics to advanced data analysis.
 
-## Emojis Used:
-- :smiley: for general achievements and positive experiences.
-- :file_folder: for organizational aspects and structure.
-- :blue_book: for educational resources and learning materials.
-
